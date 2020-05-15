@@ -20,22 +20,28 @@ const ContactForm = () => {
           errors.subject = "Required";
         }
         if (!values.message) {
-          errors.subject = "Required";
+          errors.message = "Required";
         }
         return errors;
       }}
       onSubmit={(values, { setSubmitting }) => {
         setTimeout(() => {
           setSubmitting(false);
-          window.location.href = `mailto:tythursby@gmail.com?subject=${values.subject}&body=${values.body}`;
+          window.location.href = `mailto:tythursby@gmail.com?subject=${values.subject}&body=${values.message}`;
         }, 500);
       }}
     >
       {({ submitForm, isSubmitting }) => (
         <Form>
-          <Field id="contact" component={TextField} type="input" label="Subject" name="subject" />
           <Field
-            id="contact"
+            id="subjectField"
+            component={TextField}
+            type="input"
+            label="Subject"
+            name="subject"
+          />
+          <Field
+            id="messageField"
             component={TextField}
             type="input"
             multiline
