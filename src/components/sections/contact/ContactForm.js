@@ -33,9 +33,15 @@ const ContactForm = () => {
     >
       {({ submitForm, isSubmitting }) => (
         <Form>
-          <Field id="contact" component={TextField} type="input" label="Subject" name="subject" />
           <Field
-            id="contact"
+            id="subjectField"
+            component={TextField}
+            type="input"
+            label="Subject"
+            name="subject"
+          />
+          <Field
+            id="messageField"
             component={TextField}
             type="input"
             multiline
