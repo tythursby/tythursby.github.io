@@ -20,7 +20,7 @@ const ContactForm = () => {
           errors.subject = "Required";
         }
         if (!values.message) {
-          errors.subject = "Required";
+          errors.message = "Required";
         }
         return errors;
       }}
