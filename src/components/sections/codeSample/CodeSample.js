@@ -38,8 +38,9 @@ const CodeSample = ({ id }) => {
             />
           </IframeWrapper>
           <SectionDescription>
-            A custom inventory control application I developed for a client in VueJS with MDB
-            styling. Updates POST on blur event and images uploaded trigger a crop tool.
+            A custom inventory control application that I developed for a client in VueJS with MDB
+            styling. Updates POST onBlur and dragEnd events. Image uploads trigger a crop tool modal
+            before POST.
           </SectionDescription>
           <SectionDescription sub>VueJS | MDB | JSON | CRUD | AXIOS </SectionDescription>
         </SectionContent>
