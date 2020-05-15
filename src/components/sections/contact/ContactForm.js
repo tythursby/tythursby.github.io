@@ -27,7 +27,7 @@ const ContactForm = () => {
       onSubmit={(values, { setSubmitting }) => {
         setTimeout(() => {
           setSubmitting(false);
-          window.location.href = `mailto:tythursby@gmail.com?subject=${values.subject}?body=${values.body}`;
+          window.location.href = `mailto:tythursby@gmail.com?subject=${values.subject}&body=${values.body}`;
         }, 500);
       }}
     >
