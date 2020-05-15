@@ -27,8 +27,8 @@ const About = ({ id }) => {
           <SectionTitle>Tyler Scott Thursby</SectionTitle>
           <SectionDescription>
             Front-End Developer with a focus on MVC JavaScript frameworks + libraries, ES6 syntax,
-            accessibility and functional components. I like to mess with and make cool things in my
-            spare time.
+            accessibility and functional components. In my spare time I like to make things with
+            RaspberryPi.
           </SectionDescription>
           <SectionDescription sub>React | Redux | Bootstrap | ES6</SectionDescription>
           <SectionDescription code>
