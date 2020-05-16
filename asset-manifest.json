@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.917cbbfd.chunk.css",
+    "main.js": "/static/js/main.d9e162a3.chunk.js",
+    "runtime-main.js": "/static/js/runtime-main.018f954c.js",
+    "static/js/2.d210a734.chunk.js": "/static/js/2.d210a734.chunk.js",
+    "index.html": "/index.html",
+    "precache-manifest.5f62422c359915009ac34543d9a10156.js": "/precache-manifest.5f62422c359915009ac34543d9a10156.js",
+    "service-worker.js": "/service-worker.js",
+    "static/js/2.d210a734.chunk.js.LICENSE.txt": "/static/js/2.d210a734.chunk.js.LICENSE.txt",
+    "static/media/Tyler_Thursby_Resume.pdf": "/static/media/Tyler_Thursby_Resume.eef1dfea.pdf",
+    "static/media/dubi_mobile.png": "/static/media/dubi_mobile.de97c60a.png",
+    "static/media/dubi_mobile2.png": "/static/media/dubi_mobile2.d9f55b67.png",
+    "static/media/dubi_mobile3.png": "/static/media/dubi_mobile3.9cd6d66e.png",
+    "static/media/profilePic.jpg": "/static/media/profilePic.09b7a294.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.018f954c.js",
+    "static/js/2.d210a734.chunk.js",
+    "static/css/main.917cbbfd.chunk.css",
+    "static/js/main.d9e162a3.chunk.js"
+  ]
+}
