@@ -1,28 +1,14 @@
-import React, { Partial } from "react";
+import React from "react";
 import { Formik, Form, Field } from "formik";
 import { Button, LinearProgress } from "@material-ui/core";
 import { TextField } from "formik-material-ui";
 
-interface Values {
-  subject: string;
-  message: string;
-}
 const ContactForm = () => {
   return (
     <Formik
       initialValues={{
         subject: "",
         message: ""
-      }}
-      validate={(values) => {
-        const errors: Partial<Values> = {};
-        if (!values.subject) {
-          errors.subject = "Required";
-        }
-        if (!values.message) {
-          errors.message = "Required";
-        }
-        return errors;
       }}
       onSubmit={(values, { setSubmitting }) => {
         setTimeout(() => {
